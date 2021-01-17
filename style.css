@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
+
+.roomsContainer {
+  margin: auto;
+  width: min(90%, 112rem);
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+}
+
+.rooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.room{
+    padding: 20px;
+}
+
+img {
+  max-height: 300px;
+  min-height: 300px;
+  max-width: 500px;
+}
+
+p{
+text-align: left;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
